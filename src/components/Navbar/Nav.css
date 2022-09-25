@@ -1,0 +1,189 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 90%;
+  height:7vw;
+  margin-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.links {
+  font-size: 2rem;
+  margin-left: 70px;
+  cursor: pointer;
+  color: white;
+}
+
+
+.links:hover {
+  color: rgb(14, 74, 149) !important;
+}
+
+.links--new:hover {
+  color: rgb(14, 74, 149) !important;
+}
+
+
+.links--new {
+  width: fit-content;
+}
+
+.sun {
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+  filter:invert(72%) sepia(98%) saturate(2904%) hue-rotate(1deg) brightness(101%) contrast(111%);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Moon{
+  width: 50px;
+  height: 35px;
+  margin-left: 60px;
+  filter:invert(72%) sepia(98%) saturate(2904%) hue-rotate(1deg) brightness(101%) contrast(111%);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.burger {
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+
+.blackout {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #424242;
+  opacity: 50%;
+}
+
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(100%);
+  box-sizing: border-box;
+  background: #F3F4F5;
+  height: 100vh;
+  transition: ease-in-out 0.3s;
+}
+
+.slider:target {
+  transform: translateX(70%);
+}
+
+.close {
+  display: block;
+  margin-left: 22%;
+  width: 50px;
+  height: 50px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  line-height: 50px;
+}
+
+@media (max-width: 960px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .sun {
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .Moon{
+    margin-right: 20px;
+    width: 60px;
+    height: 40px;
+  }
+
+
+  .links {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 606px) {
+
+  .close {
+    margin-left: 35%;
+  }
+
+  .container {
+    padding-left: 30px;
+
+  }
+
+  .slider:target {
+    transform: translateX(50%);
+  }
+}
+
+@media (max-width: 380px) {
+  .logo {
+    width: 50px;
+    height: 80px;
+  }
+
+  .sun {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Moon{
+    width: 30px;
+    height: 30px;
+  }
+
+  .burger {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+  }
+
+  .slider:target {
+    transform: translateX(20%);
+  }
+
+  .close {
+    margin-left: 60%;
+  }
+}

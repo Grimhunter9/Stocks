@@ -1,0 +1,143 @@
+.container_head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  margin-top: 90px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.33;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.title2 {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+  padding-right: 30px;
+
+}
+
+.pic {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+.Bttn {
+  color: white;
+  border: none;
+  padding: 7.5px 24px 6px;
+  border-radius: 1rem;
+  font-size: 3rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 0 40px 40px rgb(14, 74, 149) inset, 0 0 0 0 rgb(14, 74, 149);
+  transition: all 150ms ease-in-out;
+}
+
+
+.Bttn:hover {
+  box-shadow: 0 0 10px 0 rgb(14, 74, 149) inset, 0 0 10px 4px rgb(14, 74, 149);
+  color: rgb(14, 74, 149);
+}
+
+
+.container_stake {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.stake {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.num {
+  color: rgb(14, 74, 149);
+}
+
+@media (max-width: 1101px) {
+  .pic {
+    width: 50%;
+  }
+
+  .title2 {
+    padding-right: 0;
+  }
+
+
+}
+
+
+@media (max-width:800px) {
+  .container_stake {
+    flex-direction: column;
+  }
+
+  .stake {
+    margin-top: 50px;
+  }
+
+  .stake:nth-child(1) {
+    text-align: center;
+  }
+
+  .stake:nth-child(3) {
+    text-align: center;
+  }
+
+  .line {
+    right: 0;
+  }
+
+  .line3 {
+    left: 0;
+  }
+
+  .info3 {
+    padding-right: 10px;
+  }
+
+  .num1 {
+    padding-left: 0;
+
+  }
+}
+
+@media (max-width:606px) {
+  .pic {
+    width: 70%;
+  }
+
+  .stake, .Line_container, .line {
+    flex-direction: column;
+  }
+
+
+}
+
+@media (max-width:380px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .pic {
+    width: 80%;
+  }
+}

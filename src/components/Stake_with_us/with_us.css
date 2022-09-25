@@ -1,0 +1,29 @@
+.Shadow {
+    text-align: center;
+    /* box-shadow: 0 0 40px 40px rgb(14, 74, 149) inset, 0 0 0 0 rgb(14, 74, 149); */
+    transition: all 0.5s ease-in-out;
+}
+
+
+.Shadow:hover {
+    box-shadow: 0 0 10px 0 rgb(14, 74, 149) inset, 0 0 10px 4px rgb(14, 74, 149);
+    color: rgb(14, 74, 149);
+}
+
+.options{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+
+#Test {
+    display: none;
+}
+
+#Research {
+    display: none;
+}
+
+#Archive {
+    display: none;
+}
