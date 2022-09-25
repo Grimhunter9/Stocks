@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//stocks/static/css/main.d54c9801.css",
+    "main.js": "//stocks/static/js/main.a0141b3a.js",
+    "static/js/787.28cb0dcd.chunk.js": "//stocks/static/js/787.28cb0dcd.chunk.js",
+    "static/media/kyle-johnson-8Gl7Ew-q6D8-unsplash.jpg": "//stocks/static/media/kyle-johnson-8Gl7Ew-q6D8-unsplash.ae7367c0cead7e74388e.jpg",
+    "static/media/dark.jpg": "//stocks/static/media/dark.356ee9ff74f7fd2d9e37.jpg",
+    "static/media/logo.jpg": "//stocks/static/media/logo.356ee9ff74f7fd2d9e37.jpg",
+    "static/media/17580.jpg": "//stocks/static/media/17580.4d5f5fbea447ccb6e202.jpg",
+    "static/media/p1.jpg": "//stocks/static/media/p1.19622fd74215afe118b0.jpg",
+    "static/media/p5.jpg": "//stocks/static/media/p5.1ddde3dc46ec4bd5d236.jpg",
+    "static/media/p4.jpg": "//stocks/static/media/p4.247e16449e06dff18749.jpg",
+    "static/media/p2.jpg": "//stocks/static/media/p2.578a9e2be7917f1bb7f0.jpg",
+    "index.html": "//stocks/index.html",
+    "main.d54c9801.css.map": "//stocks/static/css/main.d54c9801.css.map",
+    "main.a0141b3a.js.map": "//stocks/static/js/main.a0141b3a.js.map",
+    "787.28cb0dcd.chunk.js.map": "//stocks/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d54c9801.css",
+    "static/js/main.a0141b3a.js"
+  ]
+}
