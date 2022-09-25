@@ -4,6 +4,7 @@ html{
   margin: 0;
   transition: ease-in-out 0.3s;
   scroll-behavior: smooth;
+ 
 }
 
 ::-webkit-scrollbar {
@@ -12,7 +13,7 @@ html{
 
 .App {
   display: flex;
-  font-family: Roboto, sans-serif;
+  font-family: 'Play', sans-serif;
   flex-direction: column;
   height: auto;
   transition: ease-in-out 0.3s;
