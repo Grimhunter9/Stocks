@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import Navigation from "./components/Navbar/Nav";
-import Head from "./components/Head/head";
-import Stakewithus from "./components/Stake_with_us/with_us";
-import OurTeam from "./components/OurTeam/team";
-import Contacts from "./components/Contacts/reach";
-import Footer from "./components/Footer/foot";
 import { AppContext } from "./Mycontext/text";
+
+import MainPage from "./components/Main/main";
+import Shentu from "./components/Api/shentu";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 /***********************************/
 import "./App.css";
 import "./components/Navbar/Nav.css";
@@ -15,6 +14,7 @@ import "./components/OurTeam/team.css";
 import "./components/Contacts/reach.css";
 import "./components/Footer/foot.css";
 
+import "./components/Api/shentu.css";
 
 export default function App() {
 
@@ -39,17 +39,15 @@ export default function App() {
 
   return (
     <AppContext.Provider value={{ color, change, menu, blackout }}>
-      <body style={{ background: color ? "transparent" : "" }} className="App">
-        <header>
-          <Navigation />
-          <Head />
-        </header>
-        <main>
-          <Stakewithus />
-          <OurTeam />
-          <Contacts />
-        </main>
-        <Footer />
+      <body >
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={ <MainPage/>} />
+            </Routes>
+            <Routes>
+              <Route path="/api/propolsals/shentu/:id" element={<Shentu />} />
+            </Routes>
+          </BrowserRouter>
       </body>
     </AppContext.Provider>
   );
