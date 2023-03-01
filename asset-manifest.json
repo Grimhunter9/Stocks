@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.147af36e.css",
-    "main.js": "/static/js/main.a91635a9.js",
+    "main.css": "/static/css/main.94a9d427.css",
+    "main.js": "/static/js/main.aa23bc92.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/kyle-johnson-8Gl7Ew-q6D8-unsplash.jpg": "/static/media/kyle-johnson-8Gl7Ew-q6D8-unsplash.ae7367c0cead7e74388e.jpg",
     "static/media/dark.jpg": "/static/media/dark.356ee9ff74f7fd2d9e37.jpg",
@@ -12,12 +12,12 @@
     "static/media/p4.jpg": "/static/media/p4.247e16449e06dff18749.jpg",
     "static/media/p2.jpg": "/static/media/p2.578a9e2be7917f1bb7f0.jpg",
     "index.html": "/index.html",
-    "main.147af36e.css.map": "/static/css/main.147af36e.css.map",
-    "main.a91635a9.js.map": "/static/js/main.a91635a9.js.map",
+    "main.94a9d427.css.map": "/static/css/main.94a9d427.css.map",
+    "main.aa23bc92.js.map": "/static/js/main.aa23bc92.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.147af36e.css",
-    "static/js/main.a91635a9.js"
+    "static/css/main.94a9d427.css",
+    "static/js/main.aa23bc92.js"
   ]
 }
