@@ -59,7 +59,9 @@ export default function Nav() {
           </a>
         </div>
       </div>
+
       <section style={{ display: menu ? "" : "none" }} className="blackout" />
+      
       <section
         style={{ background: color ? "#212121" : "" }}
         id="menu"
