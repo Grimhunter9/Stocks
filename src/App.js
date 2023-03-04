@@ -4,7 +4,7 @@ import { AppContext } from "./Mycontext/text";
 import MainPage from "./components/Main/main";
 import Shentu from "./components/Api/shentu";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route, Router } from "react-router-dom";
 /***********************************/
 import "./App.css";
 import "./components/Navbar/Nav.css";
@@ -40,14 +40,12 @@ export default function App() {
   return (
     <AppContext.Provider value={{ color, change, menu, blackout }}>
       <body >
-          <BrowserRouter>
-            <Routes>
-              <Route path="/" element={ <MainPage/>} />
-            </Routes>
-            <Routes>
-              <Route path="/api/propolsals/shentu/:id" element={<Shentu />} />
-            </Routes>
-          </BrowserRouter>
+      <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/api/propolsals/shentu/:id" element={<Shentu />} />
+          </Routes>
+        </BrowserRouter>
       </body>
     </AppContext.Provider>
   );
