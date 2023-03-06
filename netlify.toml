@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/propolsals/shentu/*"
+  to = "/index.html"
+  status = 200
+  

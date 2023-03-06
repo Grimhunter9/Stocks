@@ -4,7 +4,7 @@ import { AppContext } from "./Mycontext/text";
 import MainPage from "./components/Main/main";
 import Shentu from "./components/Api/shentu";
 
-import { BrowserRouter, HashRouter, Routes, Route, Router } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 /***********************************/
 import "./App.css";
 import "./components/Navbar/Nav.css";
