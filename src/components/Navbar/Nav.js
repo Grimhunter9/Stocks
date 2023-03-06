@@ -30,7 +30,7 @@ export default function Nav() {
           </a>
           <a
             style={{ color: color ? "white" : "black" }}
-            href="#Team"
+            href="/api/propolsals/shentu/16"
             className="links"
           >
             Team
