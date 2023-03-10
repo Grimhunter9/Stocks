@@ -50,6 +50,7 @@ export function GetPropolsalModel(id) {
 
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open("GET", urlToSend, false);
+    xmlHttp.setRequestHeader("Access-Control-Allow-Origin", "*");
     xmlHttp.send(null);
 
     var obj = JSON.parse(xmlHttp.responseText);

@@ -30,7 +30,7 @@ export default function Nav() {
           </a>
           <a
             style={{ color: color ? "white" : "black" }}
-            href="#Team"
+            href="#Teams"
             className="links"
           >
             Team

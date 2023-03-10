@@ -11,7 +11,7 @@ import { AppContext } from '../../Mycontext/text'
 export default function Team() {
     const { color } = useContext(AppContext);
     return (
-        <div id="Team">
+        <div id="Teams">
             <h1 className='Team' style={{ color: color ? "white" : "" }}>Our Team</h1>
             
             <div className="Container_grid" style={{ color: color ? "white" : "" }}>

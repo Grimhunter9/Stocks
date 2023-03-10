@@ -11,18 +11,18 @@ import { AppContext } from '../../Mycontext/text'
 
 
 export default function MainPage() {
-     const { color } = useContext(AppContext);
+    const { color } = useContext(AppContext);
     return (
         <div id="Team" style={{ background: color ? "transparent" : "" }} className="App">
-           <header>
+            <header>
                 <Navigation />
                 <Head />
             </header>
-        <main>
-            <Stakewithus />
-            <OurTeam />
-            <Contacts />
-        </main>
+            <main>
+                <Stakewithus />
+                <OurTeam />
+                <Contacts />
+            </main>
             <Footer />
         </div>
     )
