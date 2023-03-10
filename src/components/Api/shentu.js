@@ -36,7 +36,7 @@ class UserModel {
             + parseInt(no)
             + parseInt(no_with_veto)
             + parseInt(abstain);
-
+ 
         this.yes_pers = Math.round(yes * 100 / this.all_votes);
         this.no_pers = Math.round(no * 100 / this.all_votes);
         this.no_with_veto_pers = Math.round(no_with_veto * 100 / this.all_votes);
