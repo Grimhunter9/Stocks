@@ -19,14 +19,14 @@ export default function Team() {
                     <img  className="person" src={second} alt=""/>
                     <div className="content">
                       <h1 className="Name">Sam</h1>
-                      <p className="text-xl">Co-Founder / Research</p>
+                      <p className="text-xl">Founder </p>
                     </div>
                 </div>
                 <div className="grid">
                     <img className="person" src={First} alt=""/>
                     <div className="content">
                       <h1 className="Name">Yego</h1>
-                      <p className="text-xl">Co-Founder / CTO</p>
+                      <p className="text-xl">BD</p>
                     </div>
                 </div>
                 <div className="grid">
