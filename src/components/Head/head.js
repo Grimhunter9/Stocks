@@ -44,7 +44,7 @@ export default function Head() {
             <div className="container_stake" style={{ color: color ? "white" : "" }} >
                 <div className="stake">
                     <h2 className="info">Assets staked</h2>
-                    <p className="num" >{ast.name}</p>
+                    <p className="num" >1'500'000 $</p>
                 </div>
 
                 <div className="stake">
