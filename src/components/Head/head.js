@@ -8,12 +8,7 @@ export default function Head() {
     const [ast, setast] = useState(null);
 
     useEffect(() => {
-        SanityClient.fetch(
-            `*[_type=='asset']
-        {
-            name,
-        }`
-        )
+        SanityClient.fetch(`*[_type == "asset"] {asset,time}`)
             .then((data) => setast(data[0]))
             .catch(console.error);
     }, [])
@@ -43,13 +38,14 @@ export default function Head() {
             </div>
             <div className="container_stake" style={{ color: color ? "white" : "" }} >
                 <div className="stake">
+
                     <h2 className="info">Assets staked</h2>
-                    <p className="num" >1'500'000 $</p>
+                    <p className="num" >{ast.asset}</p>
                 </div>
 
                 <div className="stake">
                     <h2 className="info3">Uptime</h2>
-                    <p className="num">99.99 %</p>
+                    <p className="num">{ast.time}</p>
                 </div>
             </div>
         </div>

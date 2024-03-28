@@ -1,9 +1,8 @@
-import SanityClient from "@sanity/client";
+import SanityClient from '@sanity/client';
 
 export default SanityClient({
-    projectId: "4nmy5gzy",
-    dataset: "production",
+    projectId: '1uhk6rjl',
+    dataset: 'production',
     apiVersion: '2021-08-31',
     token: '',
-    useCdn: true,
-})
+});
